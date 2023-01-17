@@ -1,0 +1,27 @@
+{
+    "extends": ["@commitlint/config-conventional"],
+    "rules": {
+                "type-enum": [
+            2,
+            "always",
+            [
+                "artwork",
+		"banner",
+		"build",
+                "chore",
+                "ci",
+                "docs",
+                "feat",
+                "fix",
+		"icon",
+		"logo",
+		"media",
+                "perf",
+                "refactor",
+                "revert",
+                "style",
+                "test"
+            ]
+        ]
+    }
+}
